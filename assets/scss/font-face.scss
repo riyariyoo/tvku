@@ -1,0 +1,14 @@
+@each $font-face-path in $font-face-path-list {
+  $i: index($font-face-path-list, $font-face-path);
+  @include font-face(
+    $font-face-name, 
+    font-files(
+      "#{$font-face-path}.ttf", 
+      "#{$font-face-path}.woff", 
+      "#{$font-face-path}.svg"
+    ), 
+    "#{$font-face-path}.eot",
+    nth($font-face-weight-list, $i),
+    $font-face-style
+  );
+}

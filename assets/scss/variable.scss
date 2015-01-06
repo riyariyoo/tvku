@@ -1,0 +1,10 @@
+// font
+$font-face-name: "OpenSans";
+$font-face-path-list: "OpenSans-Light-webfont" "OpenSans-Regular-webfont" "OpenSans-Semibold-webfont";
+$font-face-weight-list: 300 400 600;
+$font-face-style: normal;
+
+// body
+$body-font-family: $font-face-name, sans-serif;
+$body-font-weight: nth($font-face-weight-list, 2);
+$body-bgc: darken(white, 5%);

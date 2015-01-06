@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url('../fonts/OpenSans-Light-webfont.eot?1419622898');
+  src: url('../fonts/OpenSans-Light-webfont.eot?&1419622898#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Light-webfont.ttf?1419622898') format('truetype'), url('../fonts/OpenSans-Light-webfont.woff?1419622898') format('woff'), url('../fonts/OpenSans-Light-webfont.svg?1419622898') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url('../fonts/OpenSans-Regular-webfont.eot?1419622898');
+  src: url('../fonts/OpenSans-Regular-webfont.eot?&1419622898#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Regular-webfont.ttf?1419622898') format('truetype'), url('../fonts/OpenSans-Regular-webfont.woff?1419622898') format('woff'), url('../fonts/OpenSans-Regular-webfont.svg?1419622898') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url('../fonts/OpenSans-Semibold-webfont.eot?1419622898');
+  src: url('../fonts/OpenSans-Semibold-webfont.eot?&1419622898#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Semibold-webfont.ttf?1419622898') format('truetype'), url('../fonts/OpenSans-Semibold-webfont.woff?1419622898') format('woff'), url('../fonts/OpenSans-Semibold-webfont.svg?1419622898') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  background-color: #f2f2f2;
+}
+
+/*# sourceMappingURL=main.css.map */

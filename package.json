@@ -1,0 +1,15 @@
+{
+  "name": "tvku",
+  "version": "0.0.1",
+  "description": "Web TVKU Semarang",
+  "keywords": [
+    "tvku",
+    "web"
+  ],
+  "author": "Fikri Handa",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.8.1"
+  }
+}
