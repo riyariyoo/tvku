@@ -1,6 +1,6 @@
 # Web TVKU Semarang
 
-Redesign Web [TVKU](tvku.tv)
+Redesign Web [TVKU](http://tvku.tv)
 
 ### Requiment : 
 
