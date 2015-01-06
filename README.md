@@ -4,7 +4,7 @@ Redesign Web [TVKU](tvku.tv)
 
 ### Requiment : 
 
-*   [NodeJS](nodejs.org)
-*   [Ruby Installer](www.ruby-lang.org/en/documentation/installation/)
-*   [Bower](bower.io)
-*   [Grunt](gruntjs.com)
+*   [NodeJS](http://nodejs.org/)
+*   [Ruby Installer](http://www.ruby-lang.org/en/documentation/installation/)
+*   [Bower](http://bower.io)
+*   [Grunt](http://gruntjs.com)
