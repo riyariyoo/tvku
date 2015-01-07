@@ -15,8 +15,14 @@ module.exports = (grunt) ->
         files:
           "assets/css/main.css": "assets/scss/main.scss"
 
-  grunt.loadNpmTasks "grunt-contrib-sass"
+    cssmin:
+      target:
+        files:
+          "assets/css/main.min.css": "assets/css/main.css"
 
-  grunt.registerTask "convert", ["sass"]
+  grunt.loadNpmTasks "grunt-contrib-sass"
+  grunt.loadNpmTasks "grunt-contrib-cssmin"
+
+  grunt.registerTask "convert", ["sass", "cssmin"]
 
   return

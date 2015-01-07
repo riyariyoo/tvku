@@ -8,3 +8,6 @@ $font-face-style: normal;
 $body-font-family: $font-face-name, sans-serif;
 $body-font-weight: nth($font-face-weight-list, 2);
 $body-bgc: darken(white, 5%);
+
+// heading
+$heading-font-weight: nth($font-face-weight-list, 3);

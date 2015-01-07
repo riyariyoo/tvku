@@ -10,10 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-sass": "^0.8.1"
-  },
-  "dependencies": {
-    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-cssmin": "^0.11.0",
     "grunt-contrib-sass": "^0.8.1"
   },
   "repository": {
