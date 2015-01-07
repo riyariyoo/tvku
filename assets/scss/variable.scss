@@ -23,3 +23,18 @@ $form-control-shadow-focus: rgba($form-control-border-focus, .6);
 
 // radio dan checkbox
 $radanche-label-font-weight: nth($font-face-weight-list, 2);
+
+// navigation
+$navigation-bgc: #2d3f84;
+$navigation-width: 1190px;
+$navigation-header-bgc: white;
+$navigation-header-live-width: 10%;
+$navigation-brand-padding: 8px;
+$navigation-brand-img-width: 70px;
+$navigation-menu-width: 80%;
+$navigation-menu-li-width: percentage(1 / 7);
+$navigation-menu-anchor-hover: darken($navigation-bgc, 5%);
+$navigation-live-bgc: $navigation-header-bgc;
+$navigation-live-anchor-font-size: 17px;
+$navigation-live-anchor-font-weight: nth($font-face-weight-list, 3);
+$navigation-live-anchor-padding: 13px;
