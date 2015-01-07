@@ -1,0 +1,22 @@
+label {
+  font: {
+    weight: $label-font-weight;
+  }
+}
+
+.form-control {
+  border-radius: 0px;
+  &:focus {
+    border-color: $form-control-border-focus;
+    @include box-shadow(inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px $form-control-shadow-focus);
+  }
+}
+
+.radio,
+.checkbox {
+  label {
+    font: {
+      weight: $radanche-label-font-weight;
+    }
+  }
+}

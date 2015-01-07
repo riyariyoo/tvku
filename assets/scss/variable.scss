@@ -11,3 +11,15 @@ $body-bgc: darken(white, 5%);
 
 // heading
 $heading-font-weight: nth($font-face-weight-list, 3);
+
+// form
+
+// label
+$label-font-weight: nth($font-face-weight-list, 3);
+
+// form-control
+$form-control-border-focus: lighten(#2d3f84, 5%);
+$form-control-shadow-focus: rgba($form-control-border-focus, .6);
+
+// radio dan checkbox
+$radanche-label-font-weight: nth($font-face-weight-list, 2);
