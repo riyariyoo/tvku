@@ -5,7 +5,7 @@ class Styling
 
   binding: ->
     me = @
-    $(window).scroll ->
+    $(window).on "resize scroll", ->
       me.navigationScroll($(@))
       return
     return

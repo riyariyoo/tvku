@@ -18,11 +18,11 @@
 }
 
 .banner-title {
-  padding: 20px;
-  width: 50%;
+  padding: $baner-title-padding;
+  width: $baner-title-width;
   > h1 {
     font: {
-      size: 42px;
+      size: $baner-title-h1-font-size;
     }
     line-height: 1.5;
     color: white;
@@ -34,21 +34,21 @@
 }
 
 .headline {
-  background-color: #2d3f84;
+  background-color: $headline-bgc;
   text-align: center;
-  padding: 10px;
+  padding: $headline-padding;
   > h3 {
     font: {
-      weight: 400;
+      weight: $headline-h3-font-weight;
     }
     margin: 0;
-    color: white;
+    color: $headline-h3-color;
   }
 }
 
 .headline-white {
-  background-color: white;
+  background-color: $headline-white-bgc;
   > h3 {
-    color: inherit;
+    color: $headline-white-h3-color;
   }
 }
