@@ -96,11 +96,16 @@
   </div>
   <script type="text/handlebars" data-template="pop">
     {{#each data}}
-      <a class="populer-media" href="#populer/{{kode}}">
+      <a class="populer-media" href="#{{tag}}/{{kode}}">
         <div class="populer-media-left">
           <div class="populer-media-img">
             <img src="{{img}}" />
           </div>
+        </div>
+        <div class="populer-media-body">
+          <p>
+            {{nama}}
+          </p>
         </div>
       </a>
     {{/each}}
