@@ -52,7 +52,7 @@
       width: $navigation-menu-li-width;
       text-align: center;
       > a {
-        padding: 15px;
+        padding: $navigation-menu-anchor-padding;
         display: block;
         color: white;
         &:hover,

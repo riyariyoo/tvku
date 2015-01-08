@@ -8,6 +8,7 @@ $font-face-style: normal;
 $body-font-family: $font-face-name, sans-serif;
 $body-font-weight: nth($font-face-weight-list, 2);
 $body-bgc: darken(white, 5%);
+$body-width: 1190px;
 
 // heading
 $heading-font-weight: nth($font-face-weight-list, 3);
@@ -26,15 +27,22 @@ $radanche-label-font-weight: nth($font-face-weight-list, 2);
 
 // navigation
 $navigation-bgc: #2d3f84;
-$navigation-width: 1190px;
+$navigation-width: $body-width;
 $navigation-header-bgc: white;
 $navigation-header-live-width: 10%;
 $navigation-brand-padding: 8px;
 $navigation-brand-img-width: 70px;
 $navigation-menu-width: 80%;
 $navigation-menu-li-width: percentage(1 / 7);
+$navigation-menu-anchor-padding: 15px;
 $navigation-menu-anchor-hover: darken($navigation-bgc, 5%);
 $navigation-live-bgc: $navigation-header-bgc;
 $navigation-live-anchor-font-size: 17px;
 $navigation-live-anchor-font-weight: nth($font-face-weight-list, 3);
 $navigation-live-anchor-padding: 13px;
+
+// content
+$content-margin-top: 50px;
+
+// baner
+$baner-heigth: 340px;

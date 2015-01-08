@@ -4,8 +4,7 @@ body {
     weight: $body-font-weight;
   }
   background-color: $body-bgc;
-  min-width: 1190px;
-  position: relative;
+  min-width: $body-width;
 }
 
 a {

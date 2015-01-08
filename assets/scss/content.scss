@@ -1,3 +1,16 @@
 .content {
-  height: 900px;
+  margin: {
+    top: $content-margin-top;
+  }
+}
+
+.banner {
+  overflow: hidden;
+  height: $baner-heigth;
+  position: relative;
+  > img {
+    display: block;
+    width: 100%;
+    position: absolute;
+  }
 }

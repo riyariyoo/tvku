@@ -6,6 +6,13 @@ module.exports = (grunt) ->
 
     pkg: pkg
 
+    coffee:
+      compileBare:
+        options:
+          bare: on
+        files:
+          "assets/js/main.js": ["assets/coffee/_*.coffee", "assets/coffee/main.coffee"]
+
     sass:
       dist:
         options:
@@ -21,8 +28,9 @@ module.exports = (grunt) ->
           "assets/css/main.min.css": "assets/css/main.css"
 
   grunt.loadNpmTasks "grunt-contrib-sass"
+  grunt.loadNpmTasks "grunt-contrib-coffee"
   grunt.loadNpmTasks "grunt-contrib-cssmin"
 
-  grunt.registerTask "convert", ["sass", "cssmin"]
+  grunt.registerTask "convert", ["sass", "cssmin", "coffee"]
 
   return
