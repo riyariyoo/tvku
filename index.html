@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <script type="text/javascript" src="assets/lib/jquery/dist/jquery.js"></script>
   <script type="text/javascript" src="assets/lib/bootstrap/dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="assets/lib/handlebars/handlebars.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
 </head>
 <body>
@@ -75,7 +76,10 @@
     <div class="row">
       <div class="col-xs-3 col-no-padding">
         <div class="headline">
-          <h3>BERITA</h3>
+          <h3>POPULER</h3>
+        </div>
+        <div class="populer-content" data-render="pop">
+          
         </div>
       </div>
       <div class="col-xs-6 col-no-padding">
@@ -90,5 +94,16 @@
       </div>
     </div>
   </div>
+  <script type="text/handlebars" data-template="pop">
+    {{#each data}}
+      <a class="populer-media" href="#populer/{{kode}}">
+        <div class="populer-media-left">
+          <div class="populer-media-img">
+            <img src="{{img}}" />
+          </div>
+        </div>
+      </a>
+    {{/each}}
+  </script>
 </body>
 </html>

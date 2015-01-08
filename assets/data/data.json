@@ -1,6 +1,62 @@
 [
-  {
-    "kode": "PST.KDM.000000",
-    "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-  }
+    {
+        "kode": "POP.KDM.000000",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post1.jpg",
+        "tag": "Pemerintah"
+    },
+    {
+        "kode": "POP.KDM.000001",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post2.jpg",
+        "tag": "Politik"
+    },
+    {
+        "kode": "POP.KDM.000002",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post3.jpg",
+        "tag": "Peristiwa"
+    },
+    {
+        "kode": "POP.KDM.000003",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post4.jpg",
+        "tag": "Sosial Budaya"
+    },
+    {
+        "kode": "POP.KDM.000004",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post5.jpg",
+        "tag": "Teknologi"
+    },
+    {
+        "kode": "POP.KDM.000005",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post1.jpg",
+        "tag": "Pemerintah"
+    },
+    {
+        "kode": "POP.KDM.000006",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post2.jpg",
+        "tag": "Politik"
+    },
+    {
+        "kode": "POP.KDM.000007",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post3.jpg",
+        "tag": "Peristiwa"
+    },
+    {
+        "kode": "POP.KDM.000008",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post4.jpg",
+        "tag": "Sosial Budaya"
+    },
+    {
+        "kode": "POP.KDM.000009",
+        "nama": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "img": "assets/img/post5.jpg",
+        "tag": "Teknologi"
+    }
 ]

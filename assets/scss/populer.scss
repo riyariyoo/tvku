@@ -1,0 +1,30 @@
+.populer-content {
+  padding: 10px;
+}
+
+.populer-media {
+  background-color: #FFF;
+  display: block;
+  margin: {
+    bottom: 15px;
+  }
+  &:last-child {
+    margin: {
+      bottom: 0px;
+    }
+  }
+}
+
+.populer-media-left {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.populer-media-img {
+  position: relative;
+  width: 116px;
+  > img {
+    display: block;
+    width: 100%;
+  }
+}
